@@ -1,0 +1,21 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+    border-bottom: solid 1px #ccc;
+    box-shadow: 6px 6px 5px #aaaaaa;
+    
+    img{
+        width:50px;
+        @media screen and(min-width: 768px){
+            width: 90px;            
+        }
+    &:hover{
+      -ms-transform: rotate(7deg); /* IE 9 */
+      -webkit-transform: rotate(7deg); /* Safari */
+      transform: rotate(7deg);
+    }
+    }
+   
+}
